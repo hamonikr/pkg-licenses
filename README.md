@@ -1,7 +1,8 @@
 pkg-licenses
 =============
-배포한 ISO 이미지에 포함된 모든 패키지의 라이선스 목록을 보여주는 도구
-Upstream : https://github.com/daald/dpkg-licenses
+배포한 하모니카 ISO 이미지에 포함된 모든 패키지의 라이선스 목록을 보여주는 도구입니다.
+
+* Upstream : https://github.com/daald/dpkg-licenses
 
 데비안의 거의 모든 패키지는 /usr/share/doc/<packagename>/copyright 에서 저작권을 포함하고 있습니다.
 하지만 이 파일은 처음에는 형식도 지정되지 않은 일반 텍스트 파일 그 안에 내용이 있는 형식이며 기계에서 읽을 수 있는 형식(http://dep.debian.net/deps/dep5/))으로 바꾸려고 시도해지만 이 내용은 필수 패키징 요구사항이 아니며, 많은 개발자들은 상관하지 않고 있습니다.
