@@ -13,8 +13,15 @@ http://stackoverflow.com/questions/1884753/license-info-of-a-deb-package#1884785
 
 이 프로젝트는 이러한 비정형적인 파일에서 라이선스 정보를 읽으려고 노력하는 프로젝트입니다.
 
+엑셀파일로 저장
+-------------
+    $ ./pkg-licenses -c > license.csv
 
-실행 결과
+텍스트파일로 저장
+-------------
+    $ ./pkg-licenses > license.csv    
+
+실행 결과 예시
 -------------
 
     $ ./dpkg-licenses
@@ -28,6 +35,9 @@ http://stackoverflow.com/questions/1884753/license-info-of-a-deb-package#1884785
     ii  alsa-base        1.0.25+dfsg-0ubuntu4  all    ALSA driver configuration files               GPL-2
     ii  alsa-utils       1.0.27.2-1ubuntu2     amd64  Utilities for configuring and using ALSA      GPL-2
     ii  anacron          2.3-20ubuntu1         amd64  cron-like program that doesn't go by time     GPL-2
+
+
+
 
 설치된 패키지의 90% 정도의 라이선스 정보 검출이 가능하지만 아직 완벽하지 않습니다.
 
