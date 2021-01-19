@@ -25,7 +25,7 @@ http://stackoverflow.com/questions/1884753/license-info-of-a-deb-package#1884785
 실행 결과 예시
 -------------
 
-    $ ./dpkg-licenses
+    $ ./pkg-licenses
     St  Name             Version               Arch   Description                                   Licenses
     --  ----             -------               ----   -----------                                   --------
     ii  accountsservice  0.6.35-0ubuntu7.2     amd64  query and manipulate user account informatio  GPL-2+ GPL-3+
@@ -44,7 +44,7 @@ http://stackoverflow.com/questions/1884753/license-info-of-a-deb-package#1884785
 
 The output quality on an average workspace Ubuntu installation looks like this
 
-    $ ./dpkg-licenses >output.txt 2>errors.txt
+    $ ./pkg-licenses >output.txt 2>errors.txt
     $ cat output.txt | cut -c135- | wc -l
     2230
     $ cat output.txt | cut -c135- | grep unknown | wc -l
